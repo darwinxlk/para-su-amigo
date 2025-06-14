@@ -115,7 +115,7 @@
           dy: Math.sin(angle) * speed,
           alpha: 1,
           color: colors[Math.floor(Math.random() * colors.length)],
-          text: "TE QUIERO DIEGO"
+          text: "TE QUIERO"
         });
       }
     }
@@ -170,7 +170,7 @@
         const x = i * fontSize * 4;
         const y = drops[i] * fontSize;
         ctx.fillStyle = colors[Math.floor(Math.random() * colors.length)];
-        ctx.fillText("TE QUIERO", x, y);
+        ctx.fillText("TE QUIERO DIEGO", x, y);
 
         if (y > canvas.height && Math.random() > 0.975) drops[i] = 0;
         drops[i]++;
